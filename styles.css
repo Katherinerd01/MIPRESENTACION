@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #26a0da;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+}
+
+.mySlides {
+    display: none;
+    width: 10%;
+    height: 370px;
+}
+
+body {
+    font-family: sans-serif;
+    padding-top: 25px;
+}
+
+.card {
+    margin: 10px;
+    float: left;
+    border-radius: 25px;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.fotos {
+    width: 80%;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    border: 1px solid #26a0da;
+}
+
+h2 {
+    text-align: center;
+}
+
+.fab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    width: 70%;
+    height: 40px;
+    background-color: #26a0da;
+    display: inline-block;
+    color: yellow;
+    text-align: center;
+    font-size: 25px;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    border-radius: 25px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 568px) {
+    .w3-center {
+        font-size: 25px;
+    }
+    .mySlides {
+        display: none;
+        width: 80%;
+        height: 150px;
+    }
+    .fotos {
+        width: 60%;
+        height: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 50%;
+        border: 1px solid #26a0da;
+    }
+    footer {
+        width: 100%;
+        height: 80px;
+        margin-top: 25px;
+        background-color: #a4b0be;
+        display: inline-block;
+        color:#26a0da;
+        clear: both;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+        border-radius: 25px;
+    }
+
+}
+
+@media screen and (min-width: 360px) and (max-width: 740px) {
+    .w3-center {
+        font-size: 25px;
+    }
+    .mySlides {
+        display: none;
+        width: 100%;
+        height: 170px;
+    }
+    .fotos {
+        width: 60%;
+        height: 60%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 50%;
+        border: 2px solid #26a0da;
+    }
+    .footer {
+        width: 100%;
+        height: 80px;
+        text-align: center;
+        font-size: 20px;
+        background-color: #26a0da;
+        color: #26a0da;
+        clear: both;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 50px;
+        border-radius: 25px;
+    }
+}
+@media screen  and (max-width: 480px) {
+
+    h1 {
+    font-size: 200px;
+    width: 100%;
+    height: 100%;
+    } 
+    .mySlides{
+        width: 200px;
+        height: 300px;
+    } 
+   
+    }
